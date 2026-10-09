@@ -1,0 +1,54 @@
+# Core environment and configuration
+python-dotenv
+pydantic
+pydantic-settings
+
+# LangChain and LLM integrations
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-google-genai
+langchain-groq
+langchain-huggingface
+
+# Agentic AI and workflows
+langgraph
+langgraph-checkpoint-sqlite
+langchain-mcp-adapters
+mcp
+
+# RAG, embeddings, vector search, and document loading
+sentence-transformers
+faiss-cpu
+pypdf
+
+# API and web backend
+fastapi
+uvicorn[standard]
+httpx
+requests
+
+
+# Frontend / chatbot UI
+streamlit
+
+# Search tools
+duckduckgo-search
+
+# Optional: data handling and utilities
+requests
+pandas
+
+# Optional: local Ollama models
+langchain-ollama
+
+# Optional: tracing and debugging (LangSmith)
+langsmith
+
+# Optional: notebook-based experimentation
+ipykernel
+jupyter
+
+
+-e .
